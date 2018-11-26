@@ -7,6 +7,7 @@ url = 'https://api.github.com/search/repositories'
 
 # Dictionary of query parameters (if any)
 parms = {
+    # 'q' : 'elixir-lang'
    'q' : 'tetris+language:assembly',
    'sort' : 'stars',
    'order' : 'desc'
@@ -21,4 +22,4 @@ resp = requests.get(url+'?' + querystring)
 data = json.loads(resp.text)
 print(data)
 print ("data['total_count']is ::::::::::::::: ", data['total_count'])
-print(data['items'])
+# print(data['items'])

@@ -3,7 +3,7 @@ from github import Github
 # First create a Github instance:
 
 # using username and password
-g = Github("MiuMiuMi", "980506ss")
+g = Github("MiuMiuMi", "******")
 
 # or using an access token
 # g = Github("access_token")
